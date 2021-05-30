@@ -23,19 +23,12 @@ body{
     background-position: top center;
 }
 
-.container {
-
-}
-
-.header__inner {
-
-}
 
 .header__top {
     display: flex;
     justify-content:center;
     align-items: center;
-
+    padding-top: 14px;
 }
 
 .logo__block {
@@ -44,8 +37,6 @@ body{
 
 .logo {
     width: 100px;
-    
-
 }
 
 .burgermenu {
