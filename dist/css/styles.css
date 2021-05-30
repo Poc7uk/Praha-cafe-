@@ -23,7 +23,6 @@ body{
     background-position: top center;
 }
 
-
 .header__top {
     display: flex;
     justify-content:center;
@@ -119,7 +118,15 @@ body{
 }   
 
 
+/* МЕНЮ */
 
+.container {
+    height: 100vh;
+    background-image: url(img/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
 
 
 
