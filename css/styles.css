@@ -1,0 +1,237 @@
+/* херота */ 
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* ПІД 320px (найвужчий екран) */
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+.header {
+    height: 100vh;
+    background-image: url(img/video.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.container {
+
+}
+
+.header__inner {
+
+}
+
+.header__top {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.logo__block {
+
+}
+
+.logo {
+    width: 100px;
+    
+
+}
+
+.burgermenu {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.burgermenu__btn {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    position: relative;
+    object-position: right top;    
+}    
+
+.burgermenu__btn::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff;
+}    
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+.header__text-title {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 32px;
+}
+
+.header_text-subtitle {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.header__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__button {
+    padding: 11px 53px;
+    background-color: #E29134;
+    transition: all .5s;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 35%;
+    
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header {
+    height: 100vh;
+    background-color: black;
+    background-image: url(img/backg.png);
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 26px;
+}
+
+.burgermenu__btn {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    position: relative;
+}
+
+.burgermenu__btn::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    box-shadow: 0 9px 0 0 #fff, 0 18px 0 0 #fff;
+}
+
+/* .freespace {
+    width: 50px;
+    height: 50px;
+    border: none; */
+
+/*    
+.logo {
+
+}
+
+.logo__img {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__middle {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.header__text-title {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 32px;
+}
+
+.header_text-subtitle {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.header__button {
+    padding: 11px 53px;
+    background-color: #E29134;
+    transition: all .5s;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+
+} */
