@@ -11,47 +11,44 @@
 
 </head>
 <body>
-<section class="full-height">
- <header class="header">
-   <div class="anchor" id="anchor1">
-    <div class="header__inner">
-      <div class="header__top">
-        <div class="logo__block">
-          <img class="logo" src="css/img/logo3.png" alt="logo">
+  <div class="anchor">
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__top">
+          <div class="logo__block">
+            <img class="logo" src="css/img/logo3.png" alt="logo">
+          </div>
+          <nav class="burgermenu">
+            <button class="burgermenu__btn"></button>
+          </nav>
+        </div>  
+        <div class="header__text">
+          <h1 class="header__text-title">Атмосфера Праги <br>у центрі міста Ходорів</h1>
+          <p class="header_text-subtitle"> Вас зустрічає вигляд на Карлів міст, <br> запах свинної чеської рульки <br> та келих холодного пива «Kozel» </p>
         </div>
-        <nav class="burgermenu">
-          <button class="burgermenu__btn"></button>
-        </nav>
-      </div>  
-      <div class="header__text">
-        <h1 class="header__text-title">Атмосфера Праги <br>у центрі міста Ходорів</h1>
-        <p class="header_text-subtitle"> Вас зустрічає вигляд на Карлів міст, <br> запах свинної чеської рульки <br> та келих холодного пива «Kozel» </p>
+        <div class="header__button-container">
+          <a class="header__button" href="menu/menu_fastfood.html">МЕНЮ</a>
+        </div>
       </div>
-      <div class="header__button-container">
-        <a class="header__button" href="menu/menu_fastfood.html">МЕНЮ</a>
-      </div>
-    </div>
-  </div>
- </header> 
-</section>
-  <section class="full-height">
-    <div class="container">
-    
-      <p>Poc7uk</p>
-    
-    </div>
-  </section>
+    </header>
+  </div>   
 
- <script src="js/jquery.min.js"></script>
- <!-- <script src="js/myjs.js"></script> -->
- 
- <script src="js/scrollify.js"></script>
+  <div class="anchor">
+      <div class="container">
+      
+        <p>Poc7uk</p>
+      
+      </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <script>
   $(function() {
-          $.scrollify({
-              section : ".full-height",
-          });
-  });            
+    $.scrollify({
+      section : ".anchor"
+    });
+  });     
   </script>
 
 </body>
