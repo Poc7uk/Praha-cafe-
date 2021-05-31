@@ -8,9 +8,10 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
   <title>Cafe Praha Khodoriv</title>
+
 </head>
 <body>
-
+<section class="full-height">
  <header class="header">
    <div class="anchor" id="anchor1">
     <div class="header__inner">
@@ -32,16 +33,26 @@
     </div>
   </div>
  </header> 
-
-  <section>
+</section>
+  <section class="full-height">
     <div class="container">
-      <div class="anchor" id="anchor1"></div>
+    
       <p>Poc7uk</p>
-      </div>
+    
     </div>
   </section>
 
  <script src="js/jquery.min.js"></script>
- <script src="js/myjs.js"></script>
+ <!-- <script src="js/myjs.js"></script> -->
+ 
+ <script src="js/scrollify.js"></script>
+ <script>
+  $(function() {
+          $.scrollify({
+              section : ".full-height",
+          });
+  });            
+  </script>
+
 </body>
 </html>
