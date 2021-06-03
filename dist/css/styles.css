@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding-top: 14px;
+    padding-top: 2vh;
 }
 
 .logo__block {
@@ -227,4 +227,5 @@ body{
     .header__text {
         margin-top: 20vh;
     }
+
 }
