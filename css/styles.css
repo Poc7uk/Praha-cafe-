@@ -83,7 +83,7 @@ body{
     line-height: 28px;
     text-align: center;
     color: #fff;
-    padding-bottom: 32px;
+
 }
 
 .header__text-subtitle {
@@ -94,6 +94,7 @@ body{
     line-height: 18px;
     text-align: center;
     color: #fff;
+    margin-top: 3vh;
 }
 
 .header__button-container {
@@ -198,8 +199,9 @@ body{
     width: 44%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right center;
     border-radius: 20px;
-    margin: 10px;
+    margin: 9px;
 }
 
 .salad {background-image: url(img/menulist/salad.png);}
@@ -218,3 +220,11 @@ body{
 }
 
 
+@media (min-height: 533px) {
+    .header__button-one {
+        margin-top: 15vh;
+    }
+    .header__text {
+        margin-top: 20vh;
+    }
+}
