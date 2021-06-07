@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <title>Cafe Praha Khodoriv</title>
 </head>
 <body>
 
 <!-- Головна -->
   
-  <div class="anchor" id="all">
+  <section class="anchor" id="main">
     <header class="header">
       <div class="header__inner">
         <div class="logo__container">
@@ -34,14 +35,14 @@
         </div>
       </div>
     </header>
-  </div>   
+  </section>   
 
 
 
 <!-- МЕНЮ -->
 
 
-  <div class="anchor" id="menu">
+  <section class="anchor" id="menu">
     <div class="container">
       <div class="logo__container">
         <div class="logo__block">
@@ -87,9 +88,11 @@
         </div>
       </div>        
     </div>
-  </div>
+  </section>
 
-  <div class="anchor" id="dostavka">
+  <!-- ГАЛЕРЕЯ -->
+
+  <Section class="anchor">
     <div class="container">
       <div class="logo__container">
         <div class="logo__block">
@@ -101,8 +104,112 @@
       </div>  
       <div class="contacts"> 
           <div class="h__menu">
-            <h1 class="h_menu-text">КОНТАКТИ</h1> 
+            <h1 class="h_menu-text">ГАЛЕРЕЯ</h1> 
           </div>
+      </div>    
+
+
+
+      <div class="carousel__one">
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/1.jpg" alt="photo0">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/5.jpg" alt="photo1">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/2.jpg" alt="photo2">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/3.jpg" alt="photo3">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/4.jpg" alt="photo4">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/5.jpg" alt="photo5">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box">
+            <img class="carousel__item-img" src="css/img/galery/6.jpg" alt="photo6">
+          </div>
+        </div>
+      </div>
+
+
+
+      
+      <div class="carousel__two">
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/1.jpg" alt="photo0">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/5.jpg" alt="photo1">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/2.jpg" alt="photo2">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/3.jpg" alt="photo3">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/4.jpg" alt="photo4">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/5.jpg" alt="photo5">
+          </div>
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item-box-two">
+            <img class="carousel__item-img" src="css/img/galery/6.jpg" alt="photo6">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </Section>
+
+
+<!-- КОНТАКТИ -->
+
+  <section class="anchor" id="dostavka">
+    <div class="container">
+      <div class="logo__container">
+        <div class="logo__block">
+          <img class="logo" src="css/img/logo3.png" alt="logo">
+        </div>
+        <nav class="burgermenu">
+          <button class="burgermenu__btn-white"></button>
+        </nav>
+      </div>  
+      <div class="contacts"> 
+        <div class="h__menu">
+            <h1 class="h_menu-text">КОНТАКТИ</h1> 
+        </div>
         <div class="contacts__inner"> 
           <div class="contacts__schedule">
           <p class="contacts__schedule-text">Графік роботи:</p>
@@ -135,9 +242,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-<button></button>
+
 
 
 
@@ -154,22 +261,14 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-  $(function() {
-    $.scrollify({
-      section : ".anchor"
-    });
-  });     
-  </script>
-  <script>
-    $(document).ready(function(){
-       $("#all").on("click","a", function (event) {
-           event.preventDefault();
-           var id  = $(this).attr('href'),
-               top = $(id).offset().top;
-           $('body,html').animate({scrollTop: top}, 1500);
-       });
-   });
-   </script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+
+
+
+
+
+
 </body>
 </html>
