@@ -13,7 +13,7 @@
 
 <!-- Головна -->
   
-  <div class="anchor">
+  <div class="anchor" id="all">
     <header class="header">
       <div class="header__inner">
         <div class="logo__container">
@@ -161,6 +161,15 @@
     });
   });     
   </script>
-
+  <script>
+    $(document).ready(function(){
+       $("#all").on("click","a", function (event) {
+           event.preventDefault();
+           var id  = $(this).attr('href'),
+               top = $(id).offset().top;
+           $('body,html').animate({scrollTop: top}, 1500);
+       });
+   });
+   </script>
 </body>
 </html>
