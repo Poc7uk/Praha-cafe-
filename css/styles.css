@@ -190,7 +190,6 @@ body{
     align-items: center;
     justify-content: center;
     padding-top: 1.5vh;
-
 }
 
 .h_menu-text {
@@ -250,18 +249,17 @@ body{
     margin-top: 5vh;
 }
 
-.carousel__one{
+.carousel__one {
     width: 375px;
     height: 400px;
-    margin: 30px auto 1px;
+    margin-top: 2vh;
     overflow: hidden;
    }
 
-img{
+img {
     width: 100%;
     min-height: 100%;
-   }
-
+}
 
 .carousel__item-box-two {
     display: flex;
@@ -269,31 +267,6 @@ img{
     height: 100px;
     padding: 10px;
 }
-
-.carousel__item
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* КОНТАКТИ */
@@ -320,10 +293,6 @@ img{
     line-height: 19px;
     text-align: center;
     margin-top: 2vh;
-}
-
-.contacts__information {
-    
 }
 
 .contacts__num {
@@ -353,7 +322,6 @@ img{
     width: 32px;
 }
 
-
 .contacts__address {
     font-weight: normal;
     font-size: 14px;
@@ -368,7 +336,8 @@ img{
     width: 250px;
     border: 4px solid #5F5F5F;
     margin-top: 3vh;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacts__map iframe {
@@ -379,14 +348,8 @@ img{
 
 
 
+@media(max-width: 320px) {
 
-
-
-
-
-
-
-@media (max-height: 568px) and (max-width: 320px) {
     .header__button-one {
         margin-top: 15vh;
     }
@@ -395,11 +358,91 @@ img{
     }
     .carousel__one{
         width: 320px;
-        height: 400px;
-        margin: 30px auto 1px;
+        
         overflow: hidden;
        }    
 }
 
+
+@media(max-height: 568px) {
+
+
+    /* Для Меню */
+
+    .h__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1vh;
+    }
+    
+    .h_menu-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        color: transparent;
+        -webkit-text-stroke: 0.8px #fff;
+    }
+
+    .menu__icons-block {
+        height: 80px;
+        width: 44%;
+        margin: 4px 8px 8px 8px;
+    }
+
+
+    /* Для Галереї */
+
+    .carousel {
+        margin-top: 1vh;
+    }
+    
+    .carousel__one {
+        height: 350px;
+        overflow: hidden;
+       }
+    
+    img {
+        width: 100%;
+        min-height: 100%;
+    }
+    
+    
+    .carousel__item-box-two {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+    
+    /*Для КонтактІв */
+
+    .contacts__schedule-text {
+        margin-top: 1vh;
+    }
+    
+    .contacts__schedule-time {
+        margin-top: 1.5vh;
+    }
+    
+    .contacts__num {
+        margin-top: 1.5vh;
+    }
+    
+    .contacts__images {
+        margin-top: 1.5vh;
+    }
+ 
+    .contacts__address {
+        margin-top: 1.5vh;
+    }
+    
+    .contacts__map {
+        margin-top: 1.5vh;
+    }
+    
+}
 
 
