@@ -241,7 +241,42 @@ body{
 
 
 
+/* ДОСТАВКА */
 
+.delivery__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.delivery__text {
+    margin-top: 3vh;
+}
+
+.delivery__btn {
+    padding: 11px 53px;
+    background-color: #E29134;
+    transition: all .5s;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 3vh;
+}
+
+
+.delivery__img {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 1vh;
+}
 
 /* ГАЛЕРЕЯ */
 
@@ -251,7 +286,7 @@ body{
 
 .carousel__one {
     width: 100vw;
-    height: 400px;
+    height: 60vh;
     margin-top: 2vh;
     overflow: hidden;
    }
@@ -375,6 +410,46 @@ img {
 @media(max-height: 568px) {
 
 
+    /* Для Доставки */
+
+    .delivery__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .delivery__text {
+        margin-top: 2vh;
+    }
+    
+    .delivery__btn {
+        padding: 2vh 10vw;
+        background-color: #E29134;
+        transition: all .5s;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 15px;
+        display: inline-block;
+        margin-top: 2vh;
+    }
+    
+    
+    .delivery__img {
+        width: 100vw;
+        height: 30vh;
+        margin-top: 1vh;
+    }
+
+
+
+
     /* Для Меню */
 
     .h__menu {
@@ -387,8 +462,8 @@ img {
     .h_menu-text {
         font-style: normal;
         font-weight: bold;
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 30px;
         text-align: center;
         color: transparent;
         -webkit-text-stroke: 0.8px #fff;
