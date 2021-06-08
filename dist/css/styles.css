@@ -36,7 +36,7 @@ body{
     background-image: url(img/video2.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    
 }
 
 .logo__container {
@@ -131,7 +131,7 @@ body{
     text-decoration: none;
     border-radius: 15px;
     display: inline-block;
-    margin-top: 18vh;
+    margin-top: 15vh;
 }   
 
 .header__button-two {
@@ -250,7 +250,7 @@ body{
 }
 
 .carousel__one {
-    width: 375px;
+    width: 100vw;
     height: 400px;
     margin-top: 2vh;
     overflow: hidden;
@@ -358,12 +358,17 @@ img {
     }
     .carousel__one{
         width: 320px;
-        overflow: hidden;
     }    
     .carousel__item-box-two {
         width: 80px;
         /* padding: 2px; */
     }
+}
+
+@media(max-width: 360px) {
+    /* .carousel__one{
+        width: 360px;
+    }   */
 }
 
 
@@ -402,10 +407,10 @@ img {
         margin-top: 1vh;
     }
     
-    .carousel__one {
+    /* .carousel__one {
         height: 350px;
         overflow: hidden;
-       }
+       } */
     
     img {
         width: 100%;
@@ -498,10 +503,10 @@ img {
         margin-top: 0.5vh;
     }
     
-    .carousel__one {
+    /* .carousel__one {
         height: 350px;
         overflow: hidden;
-       }
+       } */
     
     img {
         width: 100%;
